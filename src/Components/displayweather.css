@@ -1,0 +1,95 @@
+.displayweather {
+    margin-top: 20px;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.displayweather .maincard {
+    width: 530px;
+    margin-top: 20px;
+    align-self: center;
+    padding: 50px;
+    border-radius: 10px;
+    position: relative;
+    background-color: dodgerblue;
+    border: 1px solid black;
+}
+
+.displayweather .maincard .cardtitle {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 16px;
+}
+
+.displayweather .maincard .cardsubtitle {
+    position: absolute;
+    left: 10px;
+    color: whitesmoke;
+    margin-top: -8px;
+}
+
+.displayweather h1 {
+    font-size: 5rem;
+    margin: -10px;
+    margin-left: -150px;
+}
+
+.displayweather .weather-icon {
+    width: 100px;
+    padding: 10px;
+    margin: -50px 53px;
+    position: absolute;
+    top: 50px;
+}
+
+.displayweather .weather-main {
+    position: absolute;
+    padding-left:36px;
+    top: 140px;
+    left: 348px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.displayweather .weather-description {
+    position: absolute;
+    left: 10px;
+    font-size: 16px;
+}
+
+.displayweather .weatherdetails {
+    margin-left: 50px;
+    margin-right: 50px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+    grid-gap: 20px;
+}
+
+.displayweather .weatherdetails .section1 {
+    justify-self: right;
+    width: 300px;
+}
+
+h4 {
+    text-align: left;
+    margin-right: 30px;
+    font-size: 1.2rem;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+    border-bottom: 2px solid #539bb5ad;
+
+  }
+  
+th {
+    background-color: #04AA6D;
+    color: white;
+  }
+
+.displayweather .weatherdetails span {
+    font-size: 1.2rem;
+}
